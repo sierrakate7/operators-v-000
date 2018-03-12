@@ -4,9 +4,8 @@ def unsafe?(speed)
   speed = 40
   if speed <= 40 || speed >= 60
     return true
-  else speed != true
+  else
     return false
-    binding.pry
   end
 end
 
