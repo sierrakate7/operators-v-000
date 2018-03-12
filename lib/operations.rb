@@ -1,10 +1,10 @@
 require 'pry'
 
 def unsafe?(speed)
-  speed = 40
+  speed = gets.chomp.to_i
   if speed <= 40 || speed >= 60
     return true
-  else speed <= 40 && speed <= 60
+  else
     return false
     binding.pry
   end
